@@ -1,0 +1,65 @@
+package com.nedorezov.core.enums;
+
+import lombok.Getter;
+
+@Getter
+public enum CounterTypes {
+    ADS_TOPICS("ADS_TOPICS"),
+
+    BLACK_LIST("BLACK_LIST"),
+
+    CATALOGS("CATALOGS"),
+
+    DELAYED_TOPICS("DELAYED_TOPICS"),
+
+    FRIENDS("FRIENDS"),
+
+    JOIN_REQUESTS("JOIN_REQUESTS"),
+
+    LINKS("LINKS"),
+
+    MAYBE("MAYBE"),
+
+    MEMBERS("MEMBERS"),
+
+    MODERATORS("MODERATORS"),
+
+    MUSIC_TRACKS("MUSIC_TRACKS"),
+
+    NEW_PAID_TOPICS("NEW_PAID_TOPICS"),
+
+    OWN_PRODUCTS("OWN_PRODUCTS"),
+
+    PAID_MEMBERS("PAID_MEMBERS"),
+
+    PAID_TOPICS("PAID_TOPICS"),
+
+    PHOTOS("PHOTOS"),
+
+    PHOTO_ALBUMS("PHOTO_ALBUMS"),
+
+    PINNED_TOPICS("PINNED_TOPICS"),
+
+    PRESENTS("PRESENTS"),
+
+    PRODUCTS("PRODUCTS"),
+
+    PROMO_TOPICS_ON_MODERATION("PROMO_TOPICS_ON_MODERATION"),
+
+    SUGGESTED_PRODUCTS("SUGGESTED_PRODUCTS"),
+
+    SUGGESTED_TOPICS("SUGGESTED_TOPICS"),
+
+    THEMES("THEMES"),
+
+    UNPUBLISHED_TOPICS("UNPUBLISHED_TOPICS"),
+
+    VIDEOS("VIDEOS"),
+    ;
+
+    private final String value;
+
+    CounterTypes(String value) {
+        this.value = value;
+    }
+}
